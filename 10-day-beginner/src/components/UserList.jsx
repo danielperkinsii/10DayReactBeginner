@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import data from '../data/user-data.js'
 
-
 class UserList extends React.Component {
     render () {
         return (
