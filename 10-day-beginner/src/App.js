@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import User from './components/User'
+import UserList from './components/UserList'
 import data from './data/user-data.js'
 import './App.css';
 
@@ -21,7 +22,7 @@ class App extends React.Component {
     return (
       <div className='App'>
         <User userInformation={this.state.userInformation}/>
-        
+        <UserList/>
       </div>
     );
   }
