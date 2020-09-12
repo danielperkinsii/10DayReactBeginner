@@ -16,7 +16,6 @@ class UserList extends React.Component {
             </div>
         )
     }
-
 }
 
 export default UserList
