@@ -23,7 +23,7 @@ class App extends React.Component {
       <div className='App'>
         <User userInformation={this.state.userInformation}/>
         <UserList/>
-        <UpdateForm handleSubmit={this.handleSubmit} handleChange={this.handleChange} userInformation={this.state.userInformation}/>
+        <UpdateForm />
       </div>
     );
   }
