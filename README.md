@@ -13,3 +13,7 @@
 
 ### Day 2
 #### Loop over an array of data
+
+### Day 3
+#### update data from form input
+I went a different route from the tutorial today but used the same general concepts of event listening and updating state. In the tutorial, Chris used React Hooks with a useState function, however, in my UpdateForm component, I assigned state directly and then used setState() to achieve a temporary update.
