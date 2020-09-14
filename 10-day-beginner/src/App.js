@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import User from './components/User'
 import UserList from './components/UserList'
-import data from './data/user-data.js'
 import './App.css';
-
+import UpdateForm from './components/UpdateForm';
 
 
 class App extends React.Component {
@@ -18,11 +17,13 @@ class App extends React.Component {
       avatar: 'https://pbs.twimg.com/profile_images/1300389131831345153/DJTq0VgO_400x400.jpg'
     }
   }
+
   render () {
     return (
       <div className='App'>
         <User userInformation={this.state.userInformation}/>
         <UserList/>
+        <UpdateForm handleSubmit={this.handleSubmit} handleChange={this.handleChange} userInformation={this.state.userInformation}/>
       </div>
     );
   }
