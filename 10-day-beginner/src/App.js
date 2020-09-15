@@ -4,6 +4,7 @@ import UserList from './components/UserList'
 import './App.css';
 import UpdateForm from './components/UpdateForm'
 import Alert from './components/Alert'
+import AddThem from './components/AddThem'
 
 
 class App extends React.Component {
@@ -24,8 +25,9 @@ class App extends React.Component {
       <div className='App'>
         <User userInformation={this.state.userInformation}/>
         <UserList/>
-        <UpdateForm />
-        <Alert />
+        <UpdateForm/>
+        <Alert/>
+        <AddThem/>
       </div>
     );
   }
