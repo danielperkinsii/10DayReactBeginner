@@ -8,7 +8,6 @@ class UpdateForm extends React.Component {
    }
 
       handleChange = (event) => {
-        console.log(event.currentTarget.value)
         this.setState({
           [event.target.id]: event.currentTarget.value,
         })
@@ -16,7 +15,6 @@ class UpdateForm extends React.Component {
 
   handleSubmit = (event) => {
     event.preventDefault()
-    
   }
 
     render () {

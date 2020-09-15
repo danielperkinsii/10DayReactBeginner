@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import User from './components/User'
 import UserList from './components/UserList'
 import './App.css';
-import UpdateForm from './components/UpdateForm';
+import UpdateForm from './components/UpdateForm'
+import Alert from './components/Alert'
 
 
 class App extends React.Component {
@@ -24,6 +25,7 @@ class App extends React.Component {
         <User userInformation={this.state.userInformation}/>
         <UserList/>
         <UpdateForm />
+        <Alert />
       </div>
     );
   }
