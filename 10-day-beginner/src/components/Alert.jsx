@@ -25,7 +25,7 @@ class Alert extends React.Component {
         return (
             <div>
                 <form onSubmit={e => this.handleSubmit(e)}>
-                    <label>What's the secret phrase?</label>
+                    <label>What's the secret phrase?</label><br/>
                     <input type='text' value={this.state.phrase} id='phrase' onChange={this.handleChange} placeholder='suuuuper secret'/>
                 </form>
                 <p>
