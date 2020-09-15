@@ -17,3 +17,7 @@
 ### Day 3
 #### update data from form input
 I went a different route from the tutorial today but used the same general concepts of event listening and updating state. In the tutorial, Chris used React Hooks with a useState function, however, in my UpdateForm component, I assigned state directly and then used setState() to achieve a temporary update.
+
+### Day 4 (Open Sesame!)
+#### show an alert based on input
+I took the same approach as yesterday by updating state with my form input by using handleChange and handleSubmit functions within my form. And then taking my new state and using if logic to trigger the alert. Open Sesame!
