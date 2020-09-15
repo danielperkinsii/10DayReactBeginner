@@ -21,3 +21,7 @@ I went a different route from the tutorial today but used the same general conce
 ### Day 4 (Open Sesame!)
 #### show an alert based on input
 I took the same approach as yesterday by updating state with my form input by using handleChange and handleSubmit functions within my form. And then taking my new state and using if logic to trigger the alert. Open Sesame!
+
+### Day 5 
+#### addition calculator
+This one was tricky because react wanted to interpret my integers in state as strings. So I had to add in some logic to make sure I parsed the values as integers. This made it to where my calculateTotal function was ADDING instead of concatinating :)
