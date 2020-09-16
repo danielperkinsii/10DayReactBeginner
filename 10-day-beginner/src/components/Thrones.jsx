@@ -13,8 +13,6 @@ class Thrones extends React.Component {
             numCharacters.push(i)
         }
         const randomCharacter = (numCharacters[Math.floor(Math.random()*numCharacters.length)])
-        console.log(randomCharacter)
-
         fetch(baseURL + randomCharacter)
         .then(res => res.json())
         .then(
@@ -47,7 +45,6 @@ class Thrones extends React.Component {
                 <h4>Game of Thrones</h4>
                 <p>Get a Random Thrones Character! There are <strong>2138 Characters</strong>!</p>
                 <button onClick={this.getCharacter}>get random character</button>
-                {console.log(this.state.characters)}
                 <div className='users'>
                 {this.state.characters.map((character, index) => (
                     <div key={index}>
