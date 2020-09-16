@@ -25,3 +25,11 @@ I took the same approach as yesterday by updating state with my form input by us
 ### Day 5 
 #### addition calculator
 This one was tricky because react wanted to interpret my integers in state as strings. So I had to add in some logic to make sure I parsed the values as integers. This made it to where my calculateTotal function was ADDING instead of concatinating :)
+
+### Day 6
+#### Dom Movement with Events
+Manipulated div styling by using events to invoke function that change state!
+
+### Day 7
+#### Fetch and Display from an API
+Made an fetch call to a Game of Thrones API. The call randomized a number between 0 and 2138 (# of characters in the API) and concatenated that to the request URL. After getting the response, I pushed the JSON data and into an array then mapped through the array to display the cached list of Game of Throne Characters.
