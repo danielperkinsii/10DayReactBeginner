@@ -6,6 +6,7 @@ import UpdateForm from './components/UpdateForm'
 import Alert from './components/Alert'
 import AddThem from './components/AddThem'
 import BoxMove from './components/BoxMove';
+import Thrones from './components/Thrones';
 
 
 class App extends React.Component {
@@ -30,6 +31,7 @@ class App extends React.Component {
         <Alert/>
         <AddThem/>
         <BoxMove/>
+        <Thrones/>
       </div>
     );
   }
