@@ -17,7 +17,7 @@ class BoxMove extends React.Component {
     render() {
         return (
             <div className='box-container'>
-                <button onClick={this.moveBoxUp}>Move Up</button>
+                <button onClick={this.moveBoxUp}>Move the Box Up!</button>
                 <div className='box' style={{
                     transform: `translateY(${this.state.offSetTop}px)`
                 }}>
