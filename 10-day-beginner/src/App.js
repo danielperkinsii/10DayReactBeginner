@@ -5,6 +5,7 @@ import './App.css';
 import UpdateForm from './components/UpdateForm'
 import Alert from './components/Alert'
 import AddThem from './components/AddThem'
+import BoxMove from './components/BoxMove';
 
 
 class App extends React.Component {
@@ -28,6 +29,7 @@ class App extends React.Component {
         <UpdateForm/>
         <Alert/>
         <AddThem/>
+        <BoxMove/>
       </div>
     );
   }

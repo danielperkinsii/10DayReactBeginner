@@ -5,6 +5,22 @@
   padding: 100px 50px 50px;
 }
 
+.box {
+  height: 80px;
+  width: 80px;
+  background-color: #40a8f3;
+}
+
+.box-container{
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  height: 20px;
+}
+
 .user-deets {
   text-align: left;
 }
