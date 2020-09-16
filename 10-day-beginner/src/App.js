@@ -21,7 +21,7 @@ class App extends React.Component {
       avatar: 'https://pbs.twimg.com/profile_images/1300389131831345153/DJTq0VgO_400x400.jpg'
     }
   }
-
+ 
   render () {
     return (
       <div className='App'>
